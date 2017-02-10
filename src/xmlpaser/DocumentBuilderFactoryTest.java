@@ -1,5 +1,8 @@
+package xmlpaser;
+
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
+import sun.applet.Main;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -9,7 +12,7 @@ import java.util.*;
 /**
  * Created by AlanJager on 2016/11/30.
  */
-public class DocumentBuilderFactoryTest {
+class DocumentBuilderFactryTest {
     public static void main(String[] args) {
         try {
             final Document xml = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(Main.class.getResourceAsStream("/actions.xml"));
