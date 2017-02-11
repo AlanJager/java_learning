@@ -1,7 +1,7 @@
 package test.mockito.src;
 
 /**
- * Created by Alanjager on 2017/2/10.
+ * Created by AlanJager on 2017/2/10.
  */
 public class CustomizeException extends Exception {
     public CustomizeException() {

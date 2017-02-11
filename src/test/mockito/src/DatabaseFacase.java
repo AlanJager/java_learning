@@ -3,7 +3,7 @@ package test.mockito.src;
 import java.util.ArrayList;
 
 /**
- * Created by Alanjager on 2017/2/10.
+ * Created by AlanJager on 2017/2/10.
  */
 public class DatabaseFacase implements Database{
 
