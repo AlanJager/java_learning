@@ -12,13 +12,13 @@ import test.mockito.src.*;
 public class TestAsyncMsgFlow {
 
     @InjectMocks
-    AsyncMsgFlow asyncMsgFlow;
+    private AsyncMsgFlow asyncMsgFlow;
 
     @Mock
-    MessageBusImpl messageBus;
+    private MessageBusImpl messageBus;
 
     @Mock
-    Message message;
+    private Message message;
 
     @Before
     public void setUp() {
