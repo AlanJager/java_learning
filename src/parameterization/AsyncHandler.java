@@ -30,7 +30,7 @@ public class AsyncHandler {
     }
 
     public void handle() {
-        new Thread( () -> {
+        new Thread(() -> {
             while (!handleFinish) {
                 try {
                     sleep(3);

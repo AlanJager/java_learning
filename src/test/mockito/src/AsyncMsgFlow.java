@@ -10,9 +10,30 @@ public class AsyncMsgFlow {
 
     private MessageBusImpl messageBus;
 
-    public AsyncMsgFlow(Message msg, MessageBusImpl messageBus) {
+    private Trigger trigger;
+
+    public Message getMsg() {
+        return msg;
+    }
+
+    public void setMsg(Message msg) {
         this.msg = msg;
+    }
+
+    public MessageBusImpl getMessageBus() {
+        return messageBus;
+    }
+
+    public void setMessageBus(MessageBusImpl messageBus) {
         this.messageBus = messageBus;
+    }
+
+    public Trigger getTrigger() {
+        return trigger;
+    }
+
+    public void setTrigger(Trigger trigger) {
+        this.trigger = trigger;
     }
 
     public void run() throws CustomizeException {
